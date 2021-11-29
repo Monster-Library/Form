@@ -1,0 +1,27 @@
+@use "inputs";
+
+form {
+  width: 60%;
+  margin: 5rem auto;
+  height: 30rem;
+  h1 {
+    text-align: center;
+    margin: 1rem auto;
+    color: rgb(221, 100, 100) !important;
+  }
+  .btn {
+    all: unset;
+    background-color: #cc0000;
+    padding: 0.4rem 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: #fff;
+    margin-top: 2rem;
+  }
+}
+
+.error_inp {
+  outline: none;
+  border-color: #cc0000;
+}
